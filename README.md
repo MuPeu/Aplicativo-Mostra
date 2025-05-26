@@ -1,5 +1,5 @@
 <h1>Aplicativo Mostra</h1>
-<h5>por Gustavo Rezende e Murilo Rangel</h5>
+<h5>por Murilo Rangel de França</h5>
 <hr size="0.5" width="50%" align="left" color="white">
 
 <p>Aplicativo mobale, baseado no jogo da Mostra Cultural, de 2025. O app contará com as seguintes informações dos jogos inspiração:</p>
