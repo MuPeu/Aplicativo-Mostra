@@ -20,10 +20,14 @@
 <h2>Repositório do Jogo</h2>
 <a href="https://github.com/giovannasantt/fangamefnaf2025">Fan Game - FNAF 2025</a>
 
-<h2>Sumário</h2>
+<h2>Wiki</h2>
+<a href="https://github.com/MuPeu/Aplicativo-Mostra/wiki">Súmario</a><br>
+<a href="https://github.com/MuPeu/Aplicativo-Mostra/wiki/Geral">Geral</a><br>
+<a href="https://github.com/MuPeu/Aplicativo-Mostra/wiki/Widgets">Widgets</a><br>
 
 <h2>Vídeo - Protótipo:</h2>
 
+<div align=center>
 
 https://github.com/user-attachments/assets/e311da03-58ea-43c3-a5ec-132e20928e09
-
+</div>
