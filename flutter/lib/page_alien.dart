@@ -43,14 +43,22 @@ class PageAlien extends StatelessWidget {
                       decoration: BoxDecoration(color: Colors.black),
                     ),
                   ),
-                  Positioned(
-                    left: 15,
-                    top: 15,
-                    child: Image.asset(
-                      "src/assets/imgs/game_icons - crack_alien_skull.png",
-                      width: 50,
-                      height: 50,
-                    )
+                  ElevatedButton(
+                    Positioned(
+                      left: 15,
+                      top: 15,
+                      child: Image.asset(
+                        "src/assets/imgs/game_icons - crack_alien_skull.png",
+                        width: 50,
+                        height: 50,
+                      )
+                    ),
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const Home()),
+                      );
+                    },
                   ),
                   Positioned(
                     left: 109,
