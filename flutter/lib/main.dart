@@ -8,21 +8,19 @@ import 'package:app_mostra/page_fnaf.dart';
 
 void main() {
   runApp(const Main());
-  runApp(const MostraCodeApp());
+
 }
+
 
 class Main extends StatelessWidget {
   const Main({super.key});
-class MostraCodeApp extends StatelessWidget {
-  const MostraCodeApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Aplicativo Mostra',
       debugShowCheckedModeBanner: false,
-      title: 'Aplicativo Mostra',
-      debugShowCheckedModeBanner: false,
+    
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: const Color.fromARGB(255, 255, 255, 255),
       ),
