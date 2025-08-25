@@ -44,22 +44,22 @@ class PageFnaf extends StatelessWidget {
                     ),
                   ),
                   ElevatedButton(
-                      Positioned(
-                        left: 15,
-                        top: 15,
-                        child: Image.asset(
-                          "src/assets/imgs/game_icons - crack_alien_skull.png",
-                          width: 50,
-                          height: 50,
-                        )
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (context) => const Home()),
-                        );
-                      },
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const Home()),
+                      );
+                    },
+                    child: Positioned(
+                      left: 15,
+                      top: 15,
+                      child: Image.asset(
+                        "src/assets/imgs/game_icons - crack_alien_skull.png",
+                        width: 50,
+                        height: 50,
+                      )
                     ),
+                  ),
                   Positioned(
                     left: 109,
                     top: 30,

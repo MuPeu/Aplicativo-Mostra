@@ -2,9 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:app_mostra/home.dart';
 import 'package:app_mostra/page_alien.dart';
 import 'package:app_mostra/page_fnaf.dart';
-import 'package:app_mostra/home.dart';
-import 'package:app_mostra/page_alien.dart';
-import 'package:app_mostra/page_fnaf.dart';
 
 void main() {
   runApp(const Main());
@@ -29,13 +26,6 @@ class Main extends StatelessWidget {
         '/': (context) => const Home(),
         '/alien': (context) => const PageAlien(),
         '/fnaf': (context) => const PageFnaf(),
-      },
-      initialRoute: '/home',
-      routes: {
-        '/home': (context) => const Home(),
-        '/alien': (context) => const PageAlien(),
-        '/fnaf': (context) => const PageFnaf(),
-        // Adicione mais rotas aqui se tiver outras páginas
       },
       home: const Home(),
     );

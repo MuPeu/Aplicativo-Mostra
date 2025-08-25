@@ -55,7 +55,13 @@ class AndroidCompactAlien extends StatelessWidget {
                     ),
                   ),
                   ElevatedButton(
-                    Positioned(
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const Home()),
+                      );
+                    },
+                    child: Positioned(
                       left: 15,
                       top: 15,
                       child: Image.asset(
@@ -64,12 +70,6 @@ class AndroidCompactAlien extends StatelessWidget {
                         height: 50,
                       )
                     ),
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => const Home()),
-                      );
-                    },
                   ),
                   Positioned(
                     left: 109,
