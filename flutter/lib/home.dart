@@ -95,7 +95,7 @@ class Home extends StatelessWidget {
                   Positioned(
                     left: 0,
                     top: 80,
-                    child: Container(
+                    child: SizedBox(
                       width: 412,
                       height: 260,
                       child: Stack(
