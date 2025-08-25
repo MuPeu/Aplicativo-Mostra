@@ -11,17 +11,6 @@ class PageAlien extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: ListView(children: [
-        AndroidCompactAlien(),
-      ]),
-    );
-  }
-}
-
-class AndroidCompactAlien extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Aplicativo Mostra',
       debugShowCheckedModeBanner: false,
