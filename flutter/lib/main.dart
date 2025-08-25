@@ -2,11 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:app_mostra/home.dart';
 import 'package:app_mostra/page_alien.dart';
 import 'package:app_mostra/page_fnaf.dart';
+import 'package:app_mostra/home.dart';
+import 'package:app_mostra/page_alien.dart';
+import 'package:app_mostra/page_fnaf.dart';
 
 void main() {
+  runApp(const Main());
   runApp(const MostraCodeApp());
 }
 
+class Main extends StatelessWidget {
+  const Main({super.key});
 class MostraCodeApp extends StatelessWidget {
   const MostraCodeApp({super.key});
 
@@ -15,8 +21,10 @@ class MostraCodeApp extends StatelessWidget {
     return MaterialApp(
       title: 'Aplicativo Mostra',
       debugShowCheckedModeBanner: false,
+      title: 'Aplicativo Mostra',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
-        scaffoldBackgroundColor: const Color.fromARGB(255, 18, 32, 47),
+        scaffoldBackgroundColor: const Color.fromARGB(255, 255, 255, 255),
       ),
       initialRoute: '/',
       routes: {
@@ -24,6 +32,14 @@ class MostraCodeApp extends StatelessWidget {
         '/alien': (context) => const PageAlien(),
         '/fnaf': (context) => const PageFnaf(),
       },
+      initialRoute: '/home',
+      routes: {
+        '/home': (context) => const Home(),
+        '/alien': (context) => const PageAlien(),
+        '/fnaf': (context) => const PageFnaf(),
+        // Adicione mais rotas aqui se tiver outras páginas
+      },
+      home: const Home(),
     );
   }
 }
