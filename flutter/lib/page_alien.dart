@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:app_mostra/home.dart';
 import 'package:app_mostra/page_fnaf.dart';
 
-void main() {
-  runApp(const PageAlien());
-}
+
 
 class PageAlien extends StatelessWidget {
   const PageAlien({super.key});

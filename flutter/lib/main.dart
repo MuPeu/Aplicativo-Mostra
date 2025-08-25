@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:app_mostra/home.dart';
-import 'package:app_mostra/page_alien.dart';
-import 'package:app_mostra/page_fnaf.dart';
 
 void main() {
   runApp(const Main());
-
 }
 
 
@@ -22,11 +19,11 @@ class Main extends StatelessWidget {
         scaffoldBackgroundColor: const Color.fromARGB(255, 255, 255, 255),
       ),
       initialRoute: '/',
-      routes: {
-        '/': (context) => const Home(),
-        '/alien': (context) => const PageAlien(),
-        '/fnaf': (context) => const PageFnaf(),
-      },
+    //   routes: {
+    //     '/': (context) => const Main(),
+    //     '/alien': (context) => const PageAlien(),
+    //     '/fnaf': (context) => const PageFnaf(),
+    //   },
       home: const Home(),
     );
   }
