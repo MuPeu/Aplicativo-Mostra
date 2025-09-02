@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:app_mostra/home.dart';
 
 class PageFnaf extends StatelessWidget {
   const PageFnaf({super.key});
@@ -18,21 +17,24 @@ class PageFnaf extends StatelessWidget {
               decoration: BoxDecoration(color: Colors.black),
             ),
           ),
-          ElevatedButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => const Home()),
-              );
-            },
-            child: Positioned(
-              left: 15,
-              top: 15,
+          Positioned(
+            left: 15,
+            top: 15,
+            child: ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                shape: const CircleBorder(),
+                padding: EdgeInsets.zero,
+                backgroundColor: Colors.transparent,
+                elevation: 0,
+              ),
+              onPressed: () {
+                Navigator.pop(context);
+              },
               child: Image.asset(
                 "src/assets/imgs/game_icons - crack_alien_skull.png",
                 width: 50,
                 height: 50,
-              )
+              ),
             ),
           ),
           Positioned(

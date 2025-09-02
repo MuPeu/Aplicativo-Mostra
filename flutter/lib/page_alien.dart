@@ -1,198 +1,177 @@
 import 'package:flutter/material.dart';
-import 'package:app_mostra/home.dart';
-import 'package:app_mostra/page_fnaf.dart';
-
-
 
 class PageAlien extends StatelessWidget {
   const PageAlien({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Aplicativo Mostra',
-      debugShowCheckedModeBanner: false,
-      initialRoute: '/home',
-      routes: {
-        '/home': (context) => const Home(),
-        '/alien': (context) => const PageAlien(),
-        '/fnaf': (context) => const PageFnaf(),
-        // Adicione mais rotas aqui se tiver outras páginas
-      },
-      theme: ThemeData.dark().copyWith(
-        scaffoldBackgroundColor: const Color.fromARGB(255, 18, 32, 47),
-      ),
-      home: Scaffold(
-        body: Column(
+    return Scaffold(
+        body: Stack(
           children: [
-            Container(
-              width: 412,
-              height: 1760,
-              clipBehavior: Clip.antiAlias,
-              decoration: BoxDecoration(color: Colors.white),
-              child: Stack(
-                children: [
-                  Positioned(
-                    left: 0,
-                    top: 0,
-                    child: Container(
-                      width: 412,
-                      height: 80,
-                      decoration: BoxDecoration(color: Colors.black),
-                    ),
+            Positioned(
+              left: 0,
+              top: 0,
+              child: Container(
+                width: 412,
+                height: 80,
+                decoration: BoxDecoration(color: Colors.black),
+              ),
+            ),
+            Positioned(
+              left: 15,
+              top: 15,
+              child: ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  shape: const CircleBorder(),
+                  padding: EdgeInsets.zero,
+                  backgroundColor: Colors.transparent,
+                  elevation: 0,
+                ),
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Image.asset(
+                  "src/assets/imgs/game_icons - crack_alien_skull.png",
+                  width: 50,
+                  height: 50,
+                ),
+              ),
+            ),
+            Positioned(
+              left: 109,
+              top: 30,
+              child: Container(
+                width: 194,
+                height: 22,
+                decoration: ShapeDecoration(
+                  color: Colors.white,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(40),
                   ),
-                  ElevatedButton(
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => const Home()),
-                      );
-                    },
-                    child: Positioned(
-                      left: 15,
-                      top: 15,
-                      child: Image.asset(
-                        "src/assets/imgs/game_icons - crack_alien_skull.png",
-                        width: 50,
-                        height: 50,
-                      )
-                    ),
-                  ),
-                  Positioned(
-                    left: 109,
-                    top: 30,
-                    child: Container(
-                      width: 194,
-                      height: 22,
-                      decoration: ShapeDecoration(
-                        color: Colors.white,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(40),
+                ),
+              ),
+            ),
+            Positioned(
+              left: 277,
+              top: 30,
+              child: Image.asset(
+                "src/assets/imgs/icon - magnify.png",
+                width: 50,
+                height: 50,
+              )
+            ),
+            Positioned(
+              left: 363,
+              top: 36,
+              child: Image.asset(
+                "src/assets/imgs/icon - menu.png",
+                width: 50,
+                height: 50,
+              )
+            ),
+            Positioned(
+              left: 0,
+              top: 80,
+              child: Image.asset(
+                "src/assets/imgs/image - Alien.png",
+                width: 412,
+                height: 217,
+              )
+            ),
+            Positioned(
+              left: 112,
+              top: 304,
+              child: Text(
+                'ALIEN: Isolation',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 24,
+                  fontFamily: 'Roboto Flex',
+                  fontWeight: FontWeight.w900,
+                ),
+              ),
+            ),
+            Positioned(
+              left: 12,
+              top: 348,
+              child: SizedBox(
+                width: 388,
+                child: Text.rich(
+                  TextSpan(
+                    children: [
+                      TextSpan(
+                        text: 'Alien: Isolation',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 12,
+                          fontFamily: 'Roboto Flex',
+                          fontWeight: FontWeight.w700,
                         ),
                       ),
-                    ),
-                  ),
-                  Positioned(
-                    left: 277,
-                    top: 30,
-                    child: Image.asset(
-                      "src/assets/imgs/icon - magnify.png",
-                      width: 50,
-                      height: 50,
-                    )
-                  ),
-                  Positioned(
-                    left: 363,
-                    top: 36,
-                    child: Image.asset(
-                      "src/assets/imgs/icon - menu.png",
-                      width: 50,
-                      height: 50,
-                    )
-                  ),
-                  Positioned(
-                    left: 0,
-                    top: 80,
-                    child: Image.asset(
-                      "src/assets/imgs/image - Alien.png",
-                      width: 412,
-                      height: 217,
-                    )
-                  ),
-                  Positioned(
-                    left: 112,
-                    top: 304,
-                    child: Text(
-                      'ALIEN: Isolation',
-                      style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 24,
-                        fontFamily: 'Roboto Flex',
-                        fontWeight: FontWeight.w900,
+                      TextSpan(
+                        text: ' é um jogo de survival horror em que o jogador controla ',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 12,
+                          fontFamily: 'Roboto Flex',
+                          fontWeight: FontWeight.w400,
+                        ),
                       ),
-                    ),
-                  ),
-                  Positioned(
-                    left: 12,
-                    top: 348,
-                    child: SizedBox(
-                      width: 388,
-                      child: Text.rich(
-                        TextSpan(
-                          children: [
-                            TextSpan(
-                              text: 'Alien: Isolation',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize: 12,
-                                fontFamily: 'Roboto Flex',
-                                fontWeight: FontWeight.w700,
-                              ),
-                            ),
-                            TextSpan(
-                              text: ' é um jogo de survival horror em que o jogador controla ',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize: 12,
-                                fontFamily: 'Roboto Flex',
-                                fontWeight: FontWeight.w400,
-                              ),
-                            ),
-                            TextSpan(
-                              text: 'Amanda Ripley',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize: 12,
-                                fontFamily: 'Roboto Flex',
-                                fontWeight: FontWeight.w600,
-                              ),
-                            ),
-                            TextSpan(
-                              text: ', filha de Ellen Ripley, tentando descobrir a verdade sobre o desaparecimento de sua mãe. Ambientado 15 anos após os eventos do filme Alien: O Oitavo Passageiro, o jogo se passa na estação espacial ',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize: 12,
-                                fontFamily: 'Roboto Flex',
-                                fontWeight: FontWeight.w400,
-                              ),
-                            ),
-                            TextSpan(
-                              text: 'Sevastopol',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize: 12,
-                                fontFamily: 'Roboto Flex',
-                                fontWeight: FontWeight.w600,
-                              ),
-                            ),
-                            TextSpan(
-                              text: ', um local decadente e isolado onde Amanda é perseguida por um xenomorfo letal — uma criatura que não pode ser derrotada em combate direto.\nDiferente de jogos de ação convencionais, Alien: Isolation foca intensamente na ',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize: 12,
-                                fontFamily: 'Roboto Flex',
-                                fontWeight: FontWeight.w400,
-                              ),
-                            ),
-                            TextSpan(
-                              text: 'furtividade, no gerenciamento de recursos escassos e na criação de uma atmosfera constante de tensão psicológica',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize: 12,
-                                fontFamily: 'Roboto Flex',
-                                fontWeight: FontWeight.w600,
-                              ),
-                            ),
-                            TextSpan(
-                              text: '. O jogador deve usar inteligência e cautela para evitar não apenas o alienígena, mas também humanos hostis e andróides instáveis, enquanto explora o ambiente, coleta informações e resolve quebra-cabeças. Com uma narrativa densa e um design fiel ao universo cinematográfico, o jogo entrega uma experiência angustiante e fiel ao espírito do terror original da franquia.',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontSize: 12,
-                                fontFamily: 'Roboto Flex',
-                                fontWeight: FontWeight.w400,
-                              ),
-                            ),
-                          ],
+                      TextSpan(
+                        text: 'Amanda Ripley',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 12,
+                          fontFamily: 'Roboto Flex',
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                      TextSpan(
+                        text: ', filha de Ellen Ripley, tentando descobrir a verdade sobre o desaparecimento de sua mãe. Ambientado 15 anos após os eventos do filme Alien: O Oitavo Passageiro, o jogo se passa na estação espacial ',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 12,
+                          fontFamily: 'Roboto Flex',
+                          fontWeight: FontWeight.w400,
+                        ),
+                      ),
+                      TextSpan(
+                        text: 'Sevastopol',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 12,
+                          fontFamily: 'Roboto Flex',
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                      TextSpan(
+                        text: ', um local decadente e isolado onde Amanda é perseguida por um xenomorfo letal — uma criatura que não pode ser derrotada em combate direto.\nDiferente de jogos de ação convencionais, Alien: Isolation foca intensamente na ',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 12,
+                          fontFamily: 'Roboto Flex',
+                          fontWeight: FontWeight.w400,
+                        ),
+                      ),
+                      TextSpan(
+                        text: 'furtividade, no gerenciamento de recursos escassos e na criação de uma atmosfera constante de tensão psicológica',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 12,
+                          fontFamily: 'Roboto Flex',
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                      TextSpan(
+                        text: '. O jogador deve usar inteligência e cautela para evitar não apenas o alienígena, mas também humanos hostis e andróides instáveis, enquanto explora o ambiente, coleta informações e resolve quebra-cabeças. Com uma narrativa densa e um design fiel ao universo cinematográfico, o jogo entrega uma experiência angustiante e fiel ao espírito do terror original da franquia.',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 12,
+                          fontFamily: 'Roboto Flex',
+                          fontWeight: FontWeight.w400,
+                        ),
+                      ),
+                    ],
                         ),
                       ),
                     ),
@@ -846,10 +825,6 @@ class PageAlien extends StatelessWidget {
                   ),
                 ],
               ),
-            ),
-          ],
-        ),
-      )
-    );
+            );
   }
 }
