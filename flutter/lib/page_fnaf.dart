@@ -31,7 +31,7 @@ class PageFnaf extends StatelessWidget {
                 Navigator.pop(context);
               },
               child: Image.asset(
-                "src/assets/imgs/game_icons - crack_alien_skull.png",
+                "src/assets/imgs/cracked_alien_skull.png",
                 width: 50,
                 height: 50,
               ),
@@ -52,19 +52,19 @@ class PageFnaf extends StatelessWidget {
             ),
           ),
           Positioned(
-            left: 277,
-            top: 30,
+            left: 263,
+            top: 16,
             child: Image.asset(
-              "src/assets/imgs/icon - magnify.png",
+              "src/assets/imgs/magnify.png",
               width: 50,
               height: 50,
             )
           ),
           Positioned(
-            left: 363,
-            top: 36,
+            left: 355,
+            top: 16,
             child: Image.asset(
-              "src/assets/imgs/icon - menu.png",
+              "src/assets/imgs/menu.png",
               width: 50,
               height: 50,
             )
@@ -73,7 +73,7 @@ class PageFnaf extends StatelessWidget {
             left: 0,
             top: 80,
             child: Image.asset(
-              "src/assets/imgs/image - FNAF",
+              "src/assets/imgs/fnaf.png",
               width: 412,
               height: 217,
             ),
@@ -621,7 +621,7 @@ class PageFnaf extends StatelessWidget {
             left: 12,
             top: 1370,
             child: Image.asset(
-              "src/assets/imgs/image - Portas.png",
+              "src/assets/imgs/portas.png",
               width: 85.58,
               height: 115,
             )
@@ -659,7 +659,7 @@ class PageFnaf extends StatelessWidget {
             left: 196,
             top: 1502,
             child: Image.asset(
-              "src/assets/imgs/image - Camera.png",
+              "src/assets/imgs/camera.png",
               width: 204.44,
               height: 115,
             )
@@ -697,7 +697,7 @@ class PageFnaf extends StatelessWidget {
             left: 12,
             top: 1635,
             child: Image.asset(
-              "src/assets/imgs/Gif Foxy - Jumpscare.gif",
+              "src/assets/imgs/jumpscare.gif",
               width: 153.33,
               height: 115,
             )
@@ -735,7 +735,7 @@ class PageFnaf extends StatelessWidget {
             left: 261,
             top: 1767,
             child: Image.asset(
-              "src/assets/imgs/image - Choque.png",
+              "src/assets/imgs/choque.png",
               width: 139,
               height: 115,
             )
@@ -773,7 +773,7 @@ class PageFnaf extends StatelessWidget {
             left: 12,
             top: 1900,
             child: Image.asset(
-              "src/assets/imgs/image - Audio.png",
+              "src/assets/imgs/audio.png",
               width: 193.25,
               height: 115,
             )
@@ -824,7 +824,7 @@ class PageFnaf extends StatelessWidget {
             left: 196,
             top: 2032,
             child: Image.asset(
-              "src/assets/imgs/image - Data_Hora.png",
+              "src/assets/imgs/data_hora.png",
               width: 204.23,
               height: 115,
             )

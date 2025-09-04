@@ -40,7 +40,7 @@ class Home extends StatelessWidget {
                 );
               },
               child: Image.asset(
-                "src/assets/imgs/game_icons - crack_alien_skull.png",
+                "src/assets/imgs/cracked_alien_skull.png",
                 width: 50,
                 height: 50,
               ),
@@ -63,20 +63,20 @@ class Home extends StatelessWidget {
           ),
           // Ícone de lupa
           Positioned(
-            left: 277,
-            top: 30,
+            left: 263,
+            top: 16,
             child: Image.asset(
-              "src/assets/imgs/icon - magnify.png",
+              "src/assets/imgs/magnify.png",
               width: 50,
               height: 50,
             ),
           ),
           // Ícone de menu
           Positioned(
-            left: 363,
-            top: 36,
+            left: 355,
+            top: 16,
             child: Image.asset(
-              "src/assets/imgs/icon - menu.png",
+              "src/assets/imgs/menu.png",
               width: 50,
               height: 50,
             ),
@@ -94,7 +94,7 @@ class Home extends StatelessWidget {
                     left: 0,
                     top: 0,
                     child: Image.asset(
-                      "src/assets/imgs/image - FNAF.png",
+                      "src/assets/imgs/fnaf.png",
                       width: 412,
                       height: 217,
                       fit: BoxFit.cover,
@@ -140,7 +140,7 @@ class Home extends StatelessWidget {
                       left: 20,
                       top: 24,
                       child: Image.asset(
-                        "src/assets/imgs/image - FNAF Sister Location.png",
+                        "src/assets/imgs/sister_location.png",
                         width: 104.67,
                         height: 157,
                         fit: BoxFit.cover,
@@ -219,7 +219,7 @@ class Home extends StatelessWidget {
                       left: 20,
                       top: 34,
                       child: Image.asset(
-                        "src/assets/imgs/image - Alien Isolation.png",
+                        "src/assets/imgs/alien_isolation.png",
                         width: 105,
                         height: 156,
                         fit: BoxFit.cover,

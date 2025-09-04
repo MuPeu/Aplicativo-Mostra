@@ -31,7 +31,7 @@ class PageAlien extends StatelessWidget {
                   Navigator.pop(context);
                 },
                 child: Image.asset(
-                  "src/assets/imgs/game_icons - crack_alien_skull.png",
+                  "src/assets/imgs/cracked_alien_skull.png",
                   width: 50,
                   height: 50,
                 ),
@@ -52,19 +52,19 @@ class PageAlien extends StatelessWidget {
               ),
             ),
             Positioned(
-              left: 277,
-              top: 30,
+              left: 263,
+              top: 16,
               child: Image.asset(
-                "src/assets/imgs/icon - magnify.png",
+                "src/assets/imgs/magnify.png",
                 width: 50,
                 height: 50,
               )
             ),
             Positioned(
-              left: 363,
-              top: 36,
+              left: 355,
+              top: 16,
               child: Image.asset(
-                "src/assets/imgs/icon - menu.png",
+                "src/assets/imgs/menu.png",
                 width: 50,
                 height: 50,
               )
@@ -73,7 +73,7 @@ class PageAlien extends StatelessWidget {
               left: 0,
               top: 80,
               child: Image.asset(
-                "src/assets/imgs/image - Alien.png",
+                "src/assets/imgs/alien.png",
                 width: 412,
                 height: 217,
               )
@@ -713,7 +713,7 @@ class PageAlien extends StatelessWidget {
                     left: 10,
                     top: 1340,
                     child: Image.asset(
-                      "src/assets/imgs/image - Interacao Ambiente.png",
+                      "src/assets/imgs/interacao_ambiente.png",
                       width: 202.10,
                       height: 115,
                     )
@@ -751,7 +751,7 @@ class PageAlien extends StatelessWidget {
                     left: 206,
                     top: 1480,
                     child: Image.asset(
-                      "src/assets/imgs/image - Tensao.png",
+                      "src/assets/imgs/tensao.png",
                       width: 191.88,
                       height: 115,
                     )
@@ -789,7 +789,7 @@ class PageAlien extends StatelessWidget {
                     left: 10,
                     top: 1620,
                     child: Image.asset(
-                      "src/assets/imgs/image - Furtividade.png",
+                      "src/assets/imgs/furtividade.png",
                       width: 205.36,
                       height: 115,
                     )
