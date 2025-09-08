@@ -1,0 +1,158 @@
+[
+    {
+        "jogo": "Five Night's at Freddy's",
+        "Local": {
+            "nome": "Fazbear's Pizza",
+            "época": "1993",
+            "animatronics": ["Freddy Fazbear", "Bonnie", "Chica", "Foxy", "Golden Freddy"],
+            "comércio": ["Pizza", "Jogos", "Brinquedos"]
+        }
+    },
+    {
+        "jogo": "Five Night's at Freddy's 2",
+        "Local": {
+            "nome": "Fazbear's Pizza",
+            "época": "1987",
+            "animatronics": ["Freddy Fazbear", "Bonnie", "Chica", "Foxy", "Toy bonnie", "Toy chica", "Toy freddy", "Mangle", "Balloon Boy", "The Puppet", "Golden Freddy"],
+            "comércio": ["Pizza", "Jogos", "Brinquedos"]
+        }
+    },
+    {
+        "jogo": "Five Night's at Freddy's 3",
+        "Local": {
+            "nome": "Fazbear's Frights",
+            "época": "2023",
+            "animatronics": [{
+               "nome": "Springtrap",
+               "tipo": "animatrônico"
+            }, {
+               "nome": "Phantom Freddy",
+               "tipo": "fantasma"
+            }, {
+               "nome": "Phantom Chica",
+               "tipo": "fantasma"
+            }, {
+               "nome": "Phantom Foxy",
+               "tipo": "fantasma"
+            }, {
+               "nome": "Phantom Balloon Boy",
+               "tipo": "fantasma"
+            }, {
+               "nome": "Phantom Mangle",
+               "tipo": "fantasma"
+            }, {
+               "nome": "Phantom Puppet",
+               "tipo": "fantasma"
+            }],
+            "comércio": ["Jogos", "Atração de terror"]
+        }
+    },
+     {
+        "jogo": "Five Night's at Freddy's 4",
+        "Local": {
+            "nome": "Fredbear's Family Dinner",
+            "época": "1983",
+            "animatronics": ["Freddy Fazbear", "Spring Bonnie"],
+            "comércio": ["Fredbear's é um restaurante familiar, que lembra o ShowBiz Pizza Place e o Chuck E. Cheese's, oferecendo entretenimento por meio de mascotes animatrônicos que cantam e dançam."]
+        }
+    },
+
+    {
+        "jogo": "Five Night's at Freddy's Sister Location",
+        "Local": {
+            "nome": "Circus Baby's Entertainment and Rental",
+            "época": "1985",
+            "animatronics": ["Circus Baby", "Funtime Freddy", "Funtime Foxy", "Ballora", "Baby", "Bonnet", "Minireena"],
+            "comércio": ["Pizza", "Jogos", "Brinquedos", "Aluguel de animatrônicos"]
+        }
+    },
+     {
+        "jogo": "Five Night's at Freddy's Pizzeria Simulator",
+        "Local": {
+            "nome": "Freddy Fazbear's Pizza Place",
+            "época": "2023",
+            "animatronics": [{
+               "nome": "Scrap Baby",
+               "tipo": "Reparáveis"
+            }, {
+               "nome": "Molten Freddy",
+               "tipo": "Reparáveis"
+            }, {
+               "nome": "Scraptrap",
+               "tipo": "Reparáveis"
+            }, {
+               "nome": "Lefty",
+               "tipo": "Reparáveis e Compráveis"
+            }, {
+               "nome": "Rockstar Freddy",
+               "tipo": "Compráveis"
+            }, {
+               "nome": "Rockstar Bonnie",
+               "tipo": "Compráveis"
+            }, {
+               "nome": "Rockstar Chica",
+               "tipo": "Compráveis"
+            },
+            {
+               "nome": "Rockstar Bonnie",
+               "tipo": "Compráveis"
+            }, {
+               "nome": "Rockstar Foxy",
+               "tipo": "Compráveis"
+            },
+            {
+               "nome": "Funtime Chica",
+               "tipo": "Compráveis"
+            },
+            {
+               "nome": "Music Man",
+               "tipo": "Compráveis"
+            },
+            {
+               "nome": "El Chip",
+               "tipo": "Compráveis"
+            },
+             {
+               "nome": "Happy Frog",
+               "tipo": "Compráveis"
+            },
+            {
+               "nome": "Mr. Hippo",
+               "tipo": "Compráveis"
+            },
+             {
+               "nome": "Nedd Bear",
+               "tipo": "Compráveis"
+            },
+             {
+               "nome": "Pigpatch",
+               "tipo": "Compráveis"
+            },
+             {
+               "nome": "Orville Elephant",
+               "tipo": "Compráveis"
+            }
+        ],
+            "comércio": ["Uma fachada, utilizando as risadas das crianças para atrair as almas penadas para serem purificadas."]
+        }
+    },
+      {
+        "jogo": "Five Night's at Freddy's Security Breach",
+        "Local": {
+            "nome": "Mega Pizzaplex",
+            "época": "2030",
+            "animatronics": ["Glamrock Freddy", "Glamrock Chica", "Montgomery Gator", "Roxanne Wolf", "The Daycare Attendant", "S.T.A.F.F. Bots", "DJ Music Man","Wind-Up Music Man","Glamrock Bonnie"],
+            "comércio": ["O Mega Pizzaplex da Fazbear Entertainment é um grande centro de entretenimento/pizzaria, com a aparência e o tamanho de um shopping."]
+        }
+    },
+    {
+        "jogo": "Five Night's at Freddy's Secret of the Mimic",
+        "Local": {
+            "nome": "Murray's Costume Manor",
+            "época": "1979",
+            "animatronics": ["The Mimic"],
+            "comércio": ["Venda de animatrônicos", "Fantasias", "Brinquedos"]
+        }
+    }
+
+]  

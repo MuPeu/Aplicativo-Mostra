@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:app_mostra/page_alien.dart';
 import 'package:app_mostra/page_fnaf.dart';
+import 'package:app_mostra/page_fnafs-json.dart';
+
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -204,6 +206,60 @@ class Home extends StatelessWidget {
                                 SizedBox(height: 8),
                                 Text(
                                   'é um jogo de survival horror em que o jogador controla Amanda Ripley, filha de Ellen Ripley, tentando descobrir a verdade sobre a morte de sua mãe. Presa em uma estação espacial abandonada, Amanda é perseguida por um alienígena implacável. O jogo foca em furtividade e tensão, com o jogador utilizando recursos limitados para se esconder e evitar o alien enquanto explora o ambiente e resolve quebra-cabeças.',
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: 12,
+                                    fontFamily: 'Roboto Flex',
+                                    fontWeight: FontWeight.w400,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  // Card Todos os FNAFs
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute<void>(
+                          builder: (context) => const PageFnafJson(),
+                        ),
+                      );
+                    },
+                    child: Container(
+                      width: double.infinity,
+                      color: const Color(0x1EB9B9B9),
+                      padding: const EdgeInsets.all(16),
+                      margin: const EdgeInsets.symmetric(vertical: 8),
+                      child: Row(
+                        children: [
+                          Image.asset(
+                            "src/assets/imgs/fnaf_collection.png", 
+                            width: 105,
+                            height: 157,
+                            fit: BoxFit.cover,
+                          ),
+                          const SizedBox(width: 16),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: const [
+                                Text(
+                                  "Ver Todos os FNAFs",
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: 16,
+                                    fontFamily: 'Roboto Flex',
+                                    fontWeight: FontWeight.w900,
+                                  ),
+                                ),
+                                SizedBox(height: 8),
+                                Text(
+                                  "Veja a lista completa dos jogos da franquia Five Nights at Freddy's, com seus locais, épocas, animatrônicos e descrições vindas diretamente do arquivo JSON.",
                                   style: TextStyle(
                                     color: Colors.black,
                                     fontSize: 12,
