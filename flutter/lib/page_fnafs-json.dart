@@ -1,4 +1,4 @@
-// lib/pages/page_fnaf_json.dart
+// lib/page_fnaf_json.dart
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
@@ -15,7 +15,7 @@ class _PageFnafJsonState extends State<PageFnafJson> {
   late Future<List<FnafGame>> _jogosFuture;
 
   Future<List<FnafGame>> _loadFnaf() async {
-    final raw = await rootBundle.loadString('assets/fnaf.json');
+    final raw = await rootBundle.loadString('src/assets/json/fnaf.json');
     final List<dynamic> decoded = json.decode(raw) as List<dynamic>;
     return decoded.map((e) => FnafGame.fromJson(e as Map<String, dynamic>)).toList();
   }
