@@ -26,8 +26,9 @@ Ele apresenta informações sobre jogos que serviram de inspiração para a most
 
 <h2>👥 Integrantes do Projeto</h2>
 <ul>
-  <li>Giovanna</li>
   <li>Gabriel Lima Villarinho</li>
+  <li>Giovanna Cristina de Santana</li>
+  <li>Gustavo Rezende</li>
   <li>Murilo Rangel de França</li>
 </ul>
 
@@ -67,14 +68,26 @@ Ele apresenta informações sobre jogos que serviram de inspiração para a most
 </ul>
 
 <h3>📸 Prints das Telas</h3>
-<p>
-<!-- Insira aqui os prints finais do aplicativo -->
-</p>
+<h4>Page Home</h4>
+<img src="https://github.com/user-attachments/assets/d8725ba4-0b1d-4633-9789-3563843b2860" alt=""/>
+<img src="https://github.com/user-attachments/assets/0c342115-028f-4f5c-b8b2-0f1f49d465d6" alt=""/>
+<br>
+
+<h4>Page Fnaf</h4>
+<img src="https://github.com/user-attachments/assets/a20abd97-18bc-47d4-9fb7-00ead973bb0f" alt=""/>
+<img src="https://github.com/user-attachments/assets/029d2705-85da-47fe-b6b2-c7f20bb71e24" alt=""/>
+<img src="https://github.com/user-attachments/assets/91ec01ee-717c-4358-b74e-11137bd21dd7" alt=""/>
+<br>
+
+<h4>Page Alien: Isolation</h4>
+<img src="https://github.com/user-attachments/assets/a1361558-5acc-4311-9dea-461263825635" alt=""/>
+<img src="https://github.com/user-attachments/assets/a573be95-28ef-471b-88f7-2af0c2a844ba" alt=""/>
+<img src="https://github.com/user-attachments/assets/d6cf0038-0629-4c10-a86c-3d17230ed0d7" alt=""/>
+<br>
 
 <h3>🎥 Vídeo de Demonstração da Navegação</h3>
-<p>
-<!-- Coloque aqui o link para o vídeo final mostrando o app funcionando -->
-</p>
+<p>Aqui você pode ver o aplicativo rodando.</p>
+
 
 <hr>
 
