@@ -1,33 +1,109 @@
 <h1>Aplicativo Mostra</h1>
 <h5>por Murilo Rangel de França</h5>
-<hr size="0.5" width="50%" align="left" color="white">
+<hr>
 
-<p>Aplicativo mobale, baseado no jogo da Mostra Cultural, de 2025. O app contará com as seguintes informações dos jogos inspiração:</p>
-<li>Nome</li>
-<li>Sinopse</li>
-<li>Produção</li>
-<li>Studio</li>
-<li>Gênero</li>
-<li>Dados do Lançamento</li>
-<li>Elenco</li>
-<li>Trailer</li>
-<li>Site do Jogo Inspiração</li>
-<li>Mecânicas</li>
+<h2>📱 Descrição do Aplicativo</h2>
+<p>
+O <b>Aplicativo Mostra</b> é um app mobile desenvolvido como parte da Mostra Cultural de 2025.
+Ele apresenta informações sobre jogos que serviram de inspiração para a mostra, trazendo detalhes organizados e interativos.
+</p>
 
-<h2>Link do Protótipo</h2>
-<a href="https://www.figma.com/design/rE4o8fLLgzNxA4PCJEJM4W/Aplicativo-Games?node-id=1-9&t=kHxUB3Ql49Aw4cKB-1">FIGMA</a>
+<p>O usuário pode navegar entre as páginas e visualizar conteúdos como:</p>
+<ul>
+  <li>Nome</li>
+  <li>Sinopse</li>
+  <li>Produção</li>
+  <li>Estúdio</li>
+  <li>Gênero</li>
+  <li>Dados de Lançamento</li>
+  <li>Elenco</li>
+  <li>Trailer</li>
+  <li>Site oficial do jogo inspiração</li>
+  <li>Mecânicas</li>
+</ul>
 
-<h2>Repositório do Jogo</h2>
-<a href="https://github.com/giovannasantt/fangamefnaf2025">Fan Game - FNAF 2025</a>
+<hr>
 
-<h2>Wiki</h2>
-<a href="https://github.com/MuPeu/Aplicativo-Mostra/wiki">Súmario</a><br>
-<a href="https://github.com/MuPeu/Aplicativo-Mostra/wiki/Geral">Geral</a><br>
-<a href="https://github.com/MuPeu/Aplicativo-Mostra/wiki/Widgets">Widgets</a><br>
+<h2>👥 Integrantes do Projeto</h2>
+<ul>
+  <li>Murilo Rangel de França</li>
+  <!-- Coloque aqui os outros colegas, se houver -->
+</ul>
 
-<h2>Vídeo - Protótipo:</h2>
+<hr>
 
-<div align=center>
+<h2>📖 Sumário da Wiki</h2>
+<p>Acesse a Wiki completa do projeto para detalhes sobre o desenvolvimento:</p>
+<ul>
+  <li><a href="https://github.com/MuPeu/Aplicativo-Mostra/wiki">📌 Súmario</a></li>
+  <li><a href="https://github.com/MuPeu/Aplicativo-Mostra/wiki/Geral">ℹ️ Geral</a></li>
+  <li><a href="https://github.com/MuPeu/Aplicativo-Mostra/wiki/Widgets">🧩 Widgets</a></li>
+  <!-- Acrescente os outros links da Wiki (Apresentação, Protótipo Corrigido, Diagramas etc.) -->
+</ul>
 
-https://github.com/user-attachments/assets/e311da03-58ea-43c3-a5ec-132e20928e09
+<hr>
+
+<h2>🎨 Protótipo</h2>
+<p>O protótipo inicial do aplicativo foi desenvolvido no Figma:</p>
+<a href="https://www.figma.com/design/rE4o8fLLgzNxA4PCJEJM4W/Aplicativo-Games?node-id=1-9&t=7ZO51Fvb1j1tYajk-1">👉 Acessar Protótipo no Figma</a>
+
+<h3>📹 Vídeo - Protótipo</h3>
+<div align="center">
+  
+  https://github.com/user-attachments/assets/e311da03-58ea-43c3-a5ec-132e20928e09
 </div>
+
+<hr>
+
+<h2>🚀 Aplicativo Final</h2>
+<p>Após as etapas de prototipagem e correções, o aplicativo foi totalmente implementado em <b>Flutter</b>.</p>
+
+<h3>🔧 Tecnologias Utilizadas</h3>
+<ul>
+  <li><b>Linguagem:</b> Dart</li>
+  <li><b>Framework:</b> Flutter</li>
+  <li><b>IDE:</b> VS Code</li>
+</ul>
+
+<h3>📸 Prints das Telas</h3>
+<p>
+<!-- Insira aqui os prints finais do aplicativo -->
+</p>
+
+<h3>🎥 Vídeo de Demonstração da Navegação</h3>
+<p>
+<!-- Coloque aqui o link para o vídeo final mostrando o app funcionando -->
+</p>
+
+<hr>
+
+<h2>💻 Código Completo</h2>
+<p>O repositório contém todo o código do aplicativo, organizado e atualizado.</p>
+<a href="https://github.com/MuPeu/Aplicativo-Mostra.git">👉 Repositório no GitHub</a>
+
+<hr>
+
+<h2>📂 Estrutura do Projeto</h2>
+<p>Principais arquivos do código:</p>
+<ul>
+  <li><code>main.dart</code> → Arquivo inicial da aplicação</li>
+  <li><code>home.dart</code> → Página principal com a navegação</li>
+  <li><code>page_alien.dart</code> → Página com informações sobre Alien</li>
+  <li><code>page_fnaf.dart</code> → Página com informações sobre FNAF</li>
+  <li><code>page_fnafs-json.dart</code> → Consumo do JSON com dados dos jogos</li>
+</ul>
+
+<hr>
+
+<h2>📌 Observações</h2>
+<ul>
+  <li>Todo o conteúdo exibido no aplicativo é carregado a partir de <b>objetos JSON</b>, evitando textos estáticos.</li>
+  <li>Cada tela foi descrita na Wiki com:
+    <ul>
+      <li>Finalidade da tela</li>
+      <li>Widgets utilizados</li>
+      <li>Classes, atributos e métodos associados</li>
+    </ul>
+  </li>
+  <li>O repositório está público e contém o código completo, sem arquivos compactados.</li>
+</ul>
