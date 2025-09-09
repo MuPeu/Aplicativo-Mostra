@@ -1,5 +1,5 @@
 <h1>Aplicativo Mostra</h1>
-<h5>por Murilo Rangel de França</h5>
+<h5>por Murilo Rangel de França e  Gabriel Lima Villarinho</h5>
 <hr>
 
 <h2>📱 Descrição do Aplicativo</h2>
@@ -26,8 +26,9 @@ Ele apresenta informações sobre jogos que serviram de inspiração para a most
 
 <h2>👥 Integrantes do Projeto</h2>
 <ul>
+  <li>Giovanna</li>
+  <li>Gabriel Lima Villarinho</li>
   <li>Murilo Rangel de França</li>
-  <!-- Coloque aqui os outros colegas, se houver -->
 </ul>
 
 <hr>
