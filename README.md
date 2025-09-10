@@ -74,20 +74,20 @@ Ele apresenta informações sobre jogos que serviram de inspiração para a most
 
 <h3>📸 Prints das Telas</h3>
 <h4>Page Home</h4>
-<img src="https://github.com/user-attachments/assets/d8725ba4-0b1d-4633-9789-3563843b2860" alt=""/>
-<img src="https://github.com/user-attachments/assets/0c342115-028f-4f5c-b8b2-0f1f49d465d6" alt=""/>
+<img src="https://github.com/user-attachments/assets/d8725ba4-0b1d-4633-9789-3563843b2860" alt="Image 1 - Page Home"/>
+<img src="https://github.com/user-attachments/assets/0c342115-028f-4f5c-b8b2-0f1f49d465d6" alt="Image 2 - Page Home"/>
 <br>
 
 <h4>Page Fnaf</h4>
-<img src="https://github.com/user-attachments/assets/a20abd97-18bc-47d4-9fb7-00ead973bb0f" alt=""/>
-<img src="https://github.com/user-attachments/assets/029d2705-85da-47fe-b6b2-c7f20bb71e24" alt=""/>
-<img src="https://github.com/user-attachments/assets/91ec01ee-717c-4358-b74e-11137bd21dd7" alt=""/>
+<img src="https://github.com/user-attachments/assets/a20abd97-18bc-47d4-9fb7-00ead973bb0f" alt="Image 1 - Page Fnaf"/>
+<img src="https://github.com/user-attachments/assets/029d2705-85da-47fe-b6b2-c7f20bb71e24" alt="Image 2 - Page Fnaf"/>
+<img src="https://github.com/user-attachments/assets/91ec01ee-717c-4358-b74e-11137bd21dd7" alt="Image 3 - Page Fnaf"/>
 <br>
 
 <h4>Page Alien: Isolation</h4>
-<img src="https://github.com/user-attachments/assets/a1361558-5acc-4311-9dea-461263825635" alt=""/>
-<img src="https://github.com/user-attachments/assets/a573be95-28ef-471b-88f7-2af0c2a844ba" alt=""/>
-<img src="https://github.com/user-attachments/assets/d6cf0038-0629-4c10-a86c-3d17230ed0d7" alt=""/>
+<img src="https://github.com/user-attachments/assets/a1361558-5acc-4311-9dea-461263825635" alt="Image 1 - Page Alien"/>
+<img src="https://github.com/user-attachments/assets/a573be95-28ef-471b-88f7-2af0c2a844ba" alt="Image 2 - Page Alien"/>
+<img src="https://github.com/user-attachments/assets/d6cf0038-0629-4c10-a86c-3d17230ed0d7" alt="Image 3 - Page Alien"/>
 <br>
 
 <h3>🎥 Vídeo de Demonstração da Navegação</h3>
