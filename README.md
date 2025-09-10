@@ -38,8 +38,13 @@ Ele apresenta informações sobre jogos que serviram de inspiração para a most
 <p>Acesse a Wiki completa do projeto para detalhes sobre o desenvolvimento:</p>
 <ul>
   <li><a href="https://github.com/MuPeu/Aplicativo-Mostra/wiki">📌 Súmario</a></li>
+  <li><a href="https://github.com/MuPeu/Aplicativo-Mostra/wiki/Apresenta%C3%A7%C3%A3o-e-Pesquisa">Apresentação e Pesquisa</a></li>
+  <li><a href="https://github.com/MuPeu/Aplicativo-Mostra/wiki/Prot%C3%B3tipo-Corrigido">Protótipo Corrigido</a></li>
+  <li><a href="https://github.com/MuPeu/Aplicativo-Mostra/wiki/Diagrama-de-Classes">Diagrama de Classes</a></li>
   <li><a href="https://github.com/MuPeu/Aplicativo-Mostra/wiki/Geral">ℹ️ Geral</a></li>
   <li><a href="https://github.com/MuPeu/Aplicativo-Mostra/wiki/Widgets">🧩 Widgets</a></li>
+  <li><a href="https://github.com/MuPeu/Aplicativo-Mostra/wiki/Desenvolvimento">Desenvolvimento Completo</a></li>
+  <li><a href="https://github.com/MuPeu/Aplicativo-Mostra/wiki/Prints-Finais">Prints Finais</a></li>
   <!-- Acrescente os outros links da Wiki (Apresentação, Protótipo Corrigido, Diagramas etc.) -->
 </ul>
 
