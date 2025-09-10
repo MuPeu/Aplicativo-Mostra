@@ -87,8 +87,10 @@ Ele apresenta informações sobre jogos que serviram de inspiração para a most
 
 <h3>🎥 Vídeo de Demonstração da Navegação</h3>
 <p>Aqui você pode ver o aplicativo rodando.</p>
-
-
+<div align="center">
+  
+  https://github.com/user-attachments/assets/cd3631c2-0c1d-4296-87ee-d1dfa1c906ae
+</div>
 <hr>
 
 <h2>💻 Código Completo</h2>
